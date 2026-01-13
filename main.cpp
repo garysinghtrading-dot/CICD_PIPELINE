@@ -11,6 +11,7 @@ void test_add() {
     assert(add(1, 2) == 3);
     assert(add(-5, 5) == 0);
     assert(add(10, -3) == 7);
+    assert(add(10, 10) == 20);
 }
 
 int main() {
